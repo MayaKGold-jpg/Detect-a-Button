@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-v1", "id": "esp1", "top": 129, "left": 12, "attrs": {} },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 89,
+      "left": 232,
+      "attrs": { "color": "blue" }
+    }
+  ],
+  "connections": [ [ "btn1:1.l", "esp1:GND", "black", [] ], [ "btn1:2.r", "esp1:GPIO4", "green", [] ] ],
+  "dependencies": {}
+}
